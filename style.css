@@ -1,0 +1,58 @@
+s/* Text styles */
+h1 {
+    color: green;
+    font-family: sans-serif;
+}
+
+p {
+    color: coral;
+    font-family: fantasy;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-image: url('images/pointer-icon.png');
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: aqua;
+    color: #ffffff;
+}
+
+/* Menu styling */
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
+}
+
+#menu a {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+#menu a:hover {
+    color: #5077bd;
+}
+
+/* Gallery styling */
+.gallery img {
+    width: 150px;
+    margin: 5px;
+}

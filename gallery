@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery Page</title>
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <p>Boat:</p>
+  <img src="boat.jpg" width="200" alt="Boat">
+
+  <p>Plane:</p>
+  <img src="plane.jpg" width="200" alt="Plane">
+
+  <p>Cable Car:</p>
+  <img src="cablecar.jpg" width="200" alt="Cable Car">
+
+  <p>City:</p>
+  <img src="city.jpg" width="200" alt="City">
+
+</body>
+</html>
