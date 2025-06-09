@@ -1,105 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>App Development Company</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <body>
+            <h1 id="heading1"></h1>
+            <p id="paragraph1"></p>
 
-    <!-- Navigation Menu -->
-    <div id="menu">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
+            <script>
+                var text1;
+                var text2;
+                var text3;
 
-    <!-- Hero Section -->
-    <h1>Hello everyone</h1>
-    <p>This is fun</p>
+                var numA = 7;
+                var numB = 10;
 
-    <!-- Thor Section -->
-    <h2>Thor</h2>
-    <div class="gallery">
-        <img src="images/avengers_01.jpg" alt="Thor Image">
-    </div>
-    <h4>Bio</h4>
-    <p>Full Name: Thor Odinson</p>
-    <p>Place Of Birth: Asgard</p>
-    <p>Alignment: Good</p>
-    <p>Gender: Male</p>
-    <p>Race: Asgardian</p>
+                text1 = "Hello everyone on planet Earth";
+                text2 = "I love learning JS";
+                text3 = "JS is awesome";
 
-    <h4>Power Stats</h4>
-    <p>Intelligence: 69%</p>
-    <p>Strength: 100%</p>
-    <p>Speed: 92%</p>
-    <p>Durability: 100%</p>
-    <p>Power: 100%</p>
-    <p>Combat: 85%</p>
+                document.getElementById("heading1").innerHTML = (text1);
+                document.getElementById("paragraph").innerHTML = (text2 + text3);
+                document.getElementById("paragraph").innerHTML = (numA + "*" + numB + " = "+ numA * numB);
 
-    <!-- Avengers Gallery -->
-    <div class="gallery">
-        <a href="avenger-1.html"><img src="images/avengers_01.jpg" alt="Avenger 1"/></a>
-        <a href="avenger-2.html"><img src="images/avengers_02.jpg" alt="Avenger 2"/></a>
-        <a href="avenger-3.html"><img src="images/avengers_03.jpg" alt="Avenger 3"/></a>
-        <a href="avenger-4.html"><img src="images/avengers_04.jpg" alt="Avenger 4"/></a>
-        <a href="avenger-5.html"><img src="images/avengers_05.jpg" alt="Avenger 5"/></a>
-        <a href="avenger-6.html"><img src="images/avengers_06.jpg" alt="Avenger 6"/></a>
-    </div>
-
-    <!-- Headings Showcase -->
-    <h2>This is heading 2</h2>
-    <h3>This is heading 3</h3>
-    <h4>This is heading 4</h4>
-    <h5>This is heading 5</h5>
-    <h6>This is heading 6</h6>
-
-    <!-- Image Examples -->
-    <p>Image with width 150 pixels:</p>
-    <img src="images/boat.jpg" width="150" alt="Boat Image">
-
-    <p>Image with height 100 pixels:</p>
-    <img src="images/cablecar.jpg" height="100" alt="Cable Car">
-
-    <!-- Travel Gallery -->
-    <h2>Gallery</h2>
-    <div>
-        <img src="images/boat.jpg" alt="Boat" width="200">
-        <p>Boat</p>
-    </div>
-    <div>
-        <img src="images/plane.jpg" alt="Plane" width="200">
-        <p>Plane</p>
-    </div>
-    <div>
-        <img src="images/cablecar.jpg" alt="Cable Car" width="200">
-        <p>Cable Car</p>
-    </div>
-    <div>
-        <img src="images/city.jpg" alt="City" width="200">
-        <p>City</p>
-    </div>
-
-    <!-- Links Section -->
-    <h2>Links</h2>
-    <ul>
-        <li><a href="about.html">Click here to go to About Us</a></li>
-        <li><a href="boat.html">Click here to see boat page</a></li>
-        <li><a href="https://www.google.com" target="_blank">Visit Google</a></li>
-        <li><a href="https://www.itvarsity.org" target="_blank">Visit IT Varsity</a></li>
-        <li>
-            <a href="boat.html">
-                <img src="images/boat-image.jpg" alt="Boat Image" width="200">
-            </a>
-            <p>Click the image to go to the boat page</p>
-        </li>
-    </ul>
-
-    <!-- About Us Section -->
-    <h2>About Us</h2>
-    <p>We are an App Development Company based in Durban, South Africa.</p>
-    <p>We take pride in creating amazing apps!</p>
-
-</body>
+            </script>
+            
+        </body>
+    </head>
 </html>
